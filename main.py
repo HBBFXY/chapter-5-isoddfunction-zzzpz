@@ -1,4 +1,2 @@
 def isOdd(param):
-    if param is True:
-        return True
-    return isinstance(param, int) and param % 2 != 0
+    return param is not True and isinstance(param, int) and param % 2 != 0
